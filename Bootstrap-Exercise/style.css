@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(224, 239, 251);
+}
+
+.wrap {
+    width: 90vw;
+    height: 95vh;
+}
+
+.card {
+    width: 17vw;
+}
+
+img {
+    max-width: 4vw;
+}
+
+p {
+    font-size: 0.8vw;
+}
+
+h4{
+    color:rgb(66, 66, 66);
+}
+
+.btnWrap{
+    width: 4vw;
+    border-top: 2px solid rgb(179, 177, 177);
+    margin-top: 1.5vw;
+}
+
+.btnTOP, .btnDOWN{
+    margin-left: -3.5vw;
+    top: 18.5vw;
+    width: 7vw;
+    color:rgb(130, 130, 130);
+    transition: all 0.3s ease 0s;
+    border: none;
+    background: transparent;
+}
+
+.btnDOWN{
+    top: 42.5vw;
+ }
+
+.btnTOP:hover, .btnDOWN:hover {
+    border-radius: 10vw;
+    background: rgba(52, 170, 255, 0.982);
+    color: white;
+}

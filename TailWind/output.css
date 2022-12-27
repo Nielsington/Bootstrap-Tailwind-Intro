@@ -513,6 +513,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.float-right {
+  float: right;
+}
+
+.clear-right {
+  clear: right;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -533,6 +541,114 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mr-\[10vw\] {
+  margin-right: 10vw;
+}
+
+.mr-\[1vw\] {
+  margin-right: 1vw;
+}
+
+.ml-\[10vw\] {
+  margin-left: 10vw;
+}
+
+.ml-\[80vw\] {
+  margin-left: 80vw;
+}
+
+.ml-\[50vw\] {
+  margin-left: 50vw;
+}
+
+.ml-\[75vw\] {
+  margin-left: 75vw;
+}
+
+.mt-\[1vh\] {
+  margin-top: 1vh;
+}
+
+.mt-\[0vh\] {
+  margin-top: 0vh;
+}
+
+.mt-\[-1vh\] {
+  margin-top: -1vh;
+}
+
+.mb-\[1vh\] {
+  margin-bottom: 1vh;
+}
+
+.mt-\[-1\.5vh\] {
+  margin-top: -1.5vh;
+}
+
+.mt-\[-2vh\] {
+  margin-top: -2vh;
+}
+
+.mt-\[-3vh\] {
+  margin-top: -3vh;
+}
+
+.mt-\[3vh\] {
+  margin-top: 3vh;
+}
+
+.mt-\[0\.5vh\] {
+  margin-top: 0.5vh;
+}
+
+.mr-\[3vw\] {
+  margin-right: 3vw;
+}
+
+.mr-\[-10vw\] {
+  margin-right: -10vw;
+}
+
+.mr-\[40vw\] {
+  margin-right: 40vw;
+}
+
+.mr-\[30vw\] {
+  margin-right: 30vw;
+}
+
+.mr-\[20vw\] {
+  margin-right: 20vw;
+}
+
+.mb-\[2vh\] {
+  margin-bottom: 2vh;
+}
+
+.mb-\[6vh\] {
+  margin-bottom: 6vh;
+}
+
+.mb-\[vh\] {
+  margin-bottom: vh;
+}
+
+.mb-\[3vh\] {
+  margin-bottom: 3vh;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -547,6 +663,46 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[3vw\] {
+  width: 3vw;
+}
+
+.w-\[10vw\] {
+  width: 10vw;
+}
+
+.w-\[25vw\] {
+  width: 25vw;
+}
+
+.w-\[20vw\] {
+  width: 20vw;
+}
+
+.w-\[17vw\] {
+  width: 17vw;
+}
+
+.w-\[15vw\] {
+  width: 15vw;
+}
+
+.w-\[12vw\] {
+  width: 12vw;
+}
+
+.w-\[13vw\] {
+  width: 13vw;
+}
+
+.w-\[14vw\] {
+  width: 14vw;
+}
+
+.w-\[100vw\] {
+  width: 100vw;
 }
 
 .flex-col {
@@ -569,8 +725,21 @@ video {
   border-radius: 9999px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
+}
+
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-gray-500 {
@@ -598,8 +767,43 @@ video {
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
+.bg-slate-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-\[0\.5vw\] {
+  padding: 0.5vw;
+}
+
+.p-\[1vw\] {
+  padding: 1vw;
+}
+
+.p-\[0\.75vw\] {
+  padding: 0.75vw;
+}
+
+.p-\[0\.9vw\] {
+  padding: 0.9vw;
+}
+
+.p-\[0\.8vw\] {
+  padding: 0.8vw;
 }
 
 .pl-3 {
@@ -608,6 +812,46 @@ video {
 
 .pr-3 {
   padding-right: 0.75rem;
+}
+
+.pb-\[1vh\] {
+  padding-bottom: 1vh;
+}
+
+.pb-\[3vh\] {
+  padding-bottom: 3vh;
+}
+
+.pb-\[2vh\] {
+  padding-bottom: 2vh;
+}
+
+.pr-\[1vw\] {
+  padding-right: 1vw;
+}
+
+.pr-\[2vw\] {
+  padding-right: 2vw;
+}
+
+.pr-\[6vw\] {
+  padding-right: 6vw;
+}
+
+.pr-\[-10vw\] {
+  padding-right: -10vw;
+}
+
+.pr-\[10vw\] {
+  padding-right: 10vw;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
 }
 
 .text-center {
@@ -619,8 +863,56 @@ video {
   line-height: 1rem;
 }
 
+.text-\[1vw\] {
+  font-size: 1vw;
+}
+
+.text-\[10vw\] {
+  font-size: 10vw;
+}
+
+.text-\[5vw\] {
+  font-size: 5vw;
+}
+
+.text-\[2vw\] {
+  font-size: 2vw;
+}
+
+.text-\[2\.5vw\] {
+  font-size: 2.5vw;
+}
+
+.text-\[3vw\] {
+  font-size: 3vw;
+}
+
+.text-\[6vw\] {
+  font-size: 6vw;
+}
+
+.text-\[8vw\] {
+  font-size: 8vw;
+}
+
+.text-\[8\.5vw\] {
+  font-size: 8.5vw;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .text-slate-50 {
@@ -636,6 +928,20 @@ video {
 .text-blue-800 {
   --tw-text-opacity: 1;
   color: rgb(30 64 175 / var(--tw-text-opacity));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-\[5w\] {
+  color: 5w;
 }
 
 @media (min-width: 350px) {
